@@ -1,0 +1,6 @@
+.DS_Store
+
+# Fontes originais não usadas diretamente pelo site (já processadas em assets/)
+/projetos/
+/banner.png
+/logo.png
