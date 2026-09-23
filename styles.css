@@ -241,7 +241,7 @@ a{ color:inherit; }
   content:"";
   position:absolute; inset:0; z-index:-1;
   background:
-    linear-gradient(180deg, rgba(8,50,74,.78) 0%, rgba(8,50,74,.42) 30%, rgba(8,50,74,.8) 58%, rgba(8,50,74,.96) 100%);
+    linear-gradient(180deg, rgba(10,15,20,.55) 0%, rgba(10,15,20,.18) 30%, rgba(10,15,20,.55) 58%, rgba(10,15,20,.88) 100%);
 }
 
 .hero__conteudo{ max-width:60ch; }
