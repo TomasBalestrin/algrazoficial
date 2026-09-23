@@ -7,9 +7,11 @@
 <meta name="description" content="Projeto de arquitetura, planejamento e gerenciamento sob o mesmo teto. Cronograma cumprido, orçamento fechado e comunicação clara em cada fase da sua reforma, construção ou investimento em Alphaville e Grande São Paulo.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Spectral:wght@200;300;400;600&display=swap" rel="stylesheet">
-<link rel="icon" href="assets/algraz-logo.png" type="image/png">
+<link rel="preload" as="image" href="assets/hero-algraz/banner.webp" imagesrcset="assets/hero-algraz/banner-mobile.webp 900w, assets/hero-algraz/banner.webp 1683w" imagesizes="100vw" fetchpriority="high">
+<link rel="icon" href="assets/algraz-favicon.png" type="image/png">
 <link rel="stylesheet" href="styles.css">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Spectral:wght@200;300;400;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Spectral:wght@200;300;400;600&display=swap"></noscript>
 </head>
 <body>
 
@@ -17,7 +19,10 @@
 
 <header class="topo" id="topo">
   <a class="marca" href="#topo" aria-label="Algraz Engenharia">
-    <img class="marca__icone" src="assets/algraz-logo.png" alt="" aria-hidden="true">
+    <picture>
+      <source type="image/webp" srcset="assets/algraz-logo.webp">
+      <img class="marca__icone" src="assets/algraz-logo.png" alt="" aria-hidden="true" width="36" height="36">
+    </picture>
     <span class="marca__nome">Algraz Engenharia</span>
   </a>
 
@@ -53,7 +58,9 @@
 <!-- ══ HERO ══ -->
 <section class="hero">
   <picture class="hero__img">
+    <source type="image/webp" media="(max-width: 760px)" srcset="assets/hero-algraz/banner-mobile.webp">
     <source type="image/webp" srcset="assets/hero-algraz/banner.webp">
+    <source media="(max-width: 760px)" srcset="assets/hero-algraz/banner-mobile.jpg">
     <img src="assets/hero-algraz/banner.jpg" width="1683" height="935" alt="Sala de estar integrada à cozinha projetada pela Algraz Engenharia, com vista panorâmica da cidade" fetchpriority="high">
   </picture>
 
@@ -563,7 +570,10 @@
 <footer class="rodape">
   <div class="wrap rodape__grid">
     <div>
-      <img class="rodape__logo" src="assets/algraz-logo.png" alt="Algraz Engenharia">
+      <picture>
+        <source type="image/webp" srcset="assets/algraz-logo.webp">
+        <img class="rodape__logo" src="assets/algraz-logo.png" alt="Algraz Engenharia" width="150" height="150" loading="lazy">
+      </picture>
       <p class="rodape__sobre">Projetos, reformas, RRTs e laudos técnicos com responsabilidade e transparência, em Alphaville e Grande São Paulo.</p>
     </div>
     <nav class="rodape__menu" aria-label="Rodapé">
