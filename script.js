@@ -2,7 +2,7 @@
 (() => {
   'use strict';
 
-  const WHATSAPP = '551193033404';
+  const WHATSAPP = '5511930334048';
 
   /* ── Topo: fundo sólido depois do hero ── */
   const topo = document.querySelector('.topo');

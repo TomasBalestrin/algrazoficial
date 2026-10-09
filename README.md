@@ -31,7 +31,7 @@ Abra <http://localhost:8899>.
 - **Textos de depoimentos, FAQ e pacotes** — vieram da copy fornecida pelo cliente; revisar preços e condições reais dos pacotes (Starter/Smart/Handover/Premium) antes de publicar
 - **CAU / CNPJ / endereço** — usando os dados da copy (CAU A53718-7, CNPJ 61.508.199/0001-58, Av. dos Parques 252, Alphaville); confirmar
 
-O WhatsApp já está configurado: `551193033404`, definido em `script.js` e nos
+O WhatsApp já está configurado: `5511930334048`, definido em `script.js` e nos
 links do `index.html`.
 
 ## Formulário de contato
